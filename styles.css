@@ -1,0 +1,127 @@
+.body-two{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.products{
+    display: grid;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.newbie-div{
+    position: absolute;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.container{
+    display: grid;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.container:hover{
+    box-shadow: 0 0 10px rgb(184, 184, 184);
+}
+
+.image-and-name{
+    height: 200px;
+}
+
+.product-image{
+    width: 100%;
+}
+
+.star-image{
+    width: 15px;
+}
+
+.product-price{
+    margin: 0;
+    font-weight: bold;
+    color: rgb(255, 0, 150);
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.product-name{
+    margin-top: 100px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.product-name:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(255, 0, 150);
+}
+.buy-btn{
+    display: inline-block;
+    margin: 0;
+    margin-top: 8px;
+    font-weight: bold;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 6px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(49, 49, 49);
+}
+
+.buy-btn:hover{
+    background-color: rgb(237, 128, 0);
+    border-bottom: 3px solid rgb(202, 109, 0);
+}
+
+.text-above-products{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 325px;
+    padding-top: 50px;
+}
+
+.discount-products{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.back-btn{
+    background-color: rgb(194, 194, 194);
+    padding-left: 10px;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(156, 156, 156);
+    margin-right: 5px;
+}
+
+.forward-btn{
+    background-color: rgb(194, 194, 194);
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(156, 156, 156);
+}
+
+.back-btn:hover,
+.forward-btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 150);
+    border-bottom: 3px solid rgb(255, 0, 149);
+}
+
+.text-above-products-second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+

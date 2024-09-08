@@ -1,0 +1,67 @@
+.header {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 400px;
+    right: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.upg-logo{
+    object-fit: contain;
+    width: 280px;
+}
+
+.first-div,
+.second-div{
+    display: flex;
+    align-items: center;
+}
+
+.location{
+    width: 70px;
+    position: absolute;
+}
+
+.first-div-texts{
+    height: 60px;
+    padding-left: 80px;
+    font-size: 12px;
+    line-height: 170%;
+}
+
+.underlined-text{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.underlined-text:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 150)
+}
+
+.italic-text{
+    font-style: italic;
+}
+
+.call{
+    width: 60px;
+}
+
+.call-numbers{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.call-numbers:hover{
+    color: rgb(255, 0, 150)
+}
+
+.street{
+    font-size: 12px;
+    font-style: italic;
+}

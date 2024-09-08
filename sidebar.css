@@ -1,0 +1,50 @@
+.sidebar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 200px;
+    width: 250px;
+    padding-left: 400px;
+}
+
+.inside-sidebar{
+    border: 1px solid rgb(207, 207, 207);
+    border-top: 4px solid rgb(255, 0, 150);
+    border-radius: 3px;
+}
+
+.katalog{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.images-texts-sidebar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 15px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.images-texts-sidebar-last{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.image-small-logo{
+    width: 30px;
+}
+
+.right-text{
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right-text:hover{
+    color: rgb(255, 0, 150);
+}
